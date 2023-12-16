@@ -1,0 +1,28 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tomcat: MainCode" type="com.poratu.idea.plugins.tomcat" singleton="false">
+    <log_file alias="Tomcat Catalina Log" path="logs/catalina.*" />
+    <log_file alias="Tomcat Manager Log" path="logs/manager.*" />
+    <log_file alias="Tomcat Host Manager Log" path="logs/host-manager.*" />
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <option name="catalinaBase" value="" />
+    <option name="contextPath" value="/MainCode" />
+    <option name="docBase" value="$PROJECT_DIR$/MainCode/src/main/webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="extraClassPath" value="" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/10.1.17" />
+        <option name="path" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 10.1" />
+        <option name="version" value="10.1.17.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <module name="MainCode" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

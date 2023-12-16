@@ -26,7 +26,7 @@
 <!--==Navigation==-->
 <nav class="navigation">
     <!--logo-->
-    <a href="index.html" class="logo">
+    <a href="index.jsp" class="logo">
         <img src="images/logo.png" alt="YourLogo" class="logo-img">
     </a>
     <!--menu-btn-->
@@ -36,7 +36,7 @@
     </label>
     <!--menu-->
     <ul class="menu">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.jsp" class="active">Home</a></li>
         <li><a href="fruits.html">Fruits</a></li>
         <li><a href="vegetables.html">Vegetables</a></li>
         <li><a href="meat.html">Fish/Meat</a></li>
