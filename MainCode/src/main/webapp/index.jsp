@@ -37,10 +37,10 @@
     <!--menu-->
     <ul class="menu">
         <li><a href="index.jsp" class="active">Home</a></li>
-        <li><a href="fruits.html">Fruits</a></li>
-        <li><a href="vegetables.html">Vegetables</a></li>
-        <li><a href="meat.html">Fish/Meat</a></li>
-        <li><a href="review.html">Reviews</a></li>
+        <li><a href="fruits.jsp">Fruits</a></li>
+        <li><a href="vegetables.jsp">Vegetables</a></li>
+        <li><a href="meat.jsp">Fish/Meat</a></li>
+        <li><a href="review.jsp">Reviews</a></li>
 
     </ul>
     <!--right-nav-(cart-like)-->
