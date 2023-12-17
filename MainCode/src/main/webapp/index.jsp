@@ -442,9 +442,9 @@
         <div class="footer-links">
             <strong>Product</strong>
             <ul>
-                <li><a href="#">Fruits</a></li>
-                <li><a href="#">Vegetables</a></li>
-                <li><a href="#">Fish/Meat</a></li>
+                <li><a href="fruit.jsp">Fruits</a></li>
+                <li><a href="vegetable.jsp">Vegetables</a></li>
+                <li><a href="meat.jsp">Fish/Meat</a></li>
 
             </ul>
         </div>
