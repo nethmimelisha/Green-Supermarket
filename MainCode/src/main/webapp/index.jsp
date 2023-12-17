@@ -59,5 +59,29 @@
 </nav>
 <!--nav-end-->
 
+<!--==Search-banner==-->
+<section id="search-banner">
+
+    <!--bg-->
+    <img alt="bg" class="bg-1" src="images/bg-1.png">
+
+
+    <!--text-->
+    <div class="search-banner-text">
+        <h1>Order Your daily Groceries</h1>
+        <strong>#Free Delivery</strong>
+        <!--search-box-->
+        <form action="" class="search-box">
+            <!--icon-->
+            <i class="fas fa-search"></i>
+            <!--input----->
+            <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+            <!--btn-->
+            <input type="submit" class="search-btn" value="Search">
+        </form>
+    </div>
+</section>
+<!--search-banner-end-->
+
 </body>
 </html>

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Home Page Links">
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Css File Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket" />
     </key>
   </component>
@@ -199,6 +199,8 @@
       <workItem from="1702750039387" duration="156000" />
       <workItem from="1702791994777" duration="480000" />
       <workItem from="1702798027092" duration="383000" />
+      <workItem from="1702798744048" duration="719000" />
+      <workItem from="1702806850703" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Green Supermarket">
       <option name="closed" value="true" />
@@ -272,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702750181299</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Login update">
+      <option name="closed" value="true" />
+      <created>1702798810600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702798810600</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Css File Update">
+      <option name="closed" value="true" />
+      <created>1702799156204</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702799156204</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +302,8 @@
     <MESSAGE value="Home Page" />
     <MESSAGE value="Home Page Edits" />
     <MESSAGE value="Home Page Links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page Links" />
+    <MESSAGE value="Login update" />
+    <MESSAGE value="Css File Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css File Update" />
   </component>
 </project>
