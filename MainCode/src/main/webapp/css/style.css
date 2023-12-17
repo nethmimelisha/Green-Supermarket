@@ -1,7 +1,7 @@
 *{
-    font-family: poppins;
-    margin: 0px;
-    padding: 0px;
+    font-family: poppins, serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -12,9 +12,9 @@ a{
     text-decoration: none;
 }
 body{
-    margin: 0px;
-    padding: 0px;
-    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, serif;
 }
 
 ::selection{
@@ -41,7 +41,7 @@ body{
 }
 .menu li a{
     padding: 3px 10px;
-    margin: 0px 15px;
+    margin: 0 15px;
     color: #3b3b3b;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -166,19 +166,19 @@ body{
     display: flex;
     align-items: center;
     margin-top: 25px;
-    padding: 0px 5px 0px 20px;
+    padding: 0 5px 0 20px;
     border-radius: 30px;
 }
 .search-box i{
     font-size: 1.3rem;
     color: #3b3b3b;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 .search-box .search-input{
     height: 40px;
     border: none;
     width: 100%;
-    padding: 0px 10px;
+    padding: 0 10px;
     outline: none;
 }
 .search-box .search-btn{
@@ -271,7 +271,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     align-items: center;
-    margin: 40px 0px;
+    margin: 40px 0;
 }
 .product-box img{
     width: 90%;
@@ -345,7 +345,7 @@ body{
     justify-content: center;
     max-width: 1150px;
     margin: 50px auto;
-    padding: 60px 0px 20px 0px;
+    padding: 60px 0 20px 0;
     border-radius: 20px;
     background-color: #ecf7ee;
     border: 1px solid #f3f3f3;
@@ -365,8 +365,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #f6f6f656;
-    padding: 80px 0px;
-    margin: 40px 0px;
+    padding: 80px 0;
+    margin: 40px 0;
     border-top: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3;
 }
@@ -469,7 +469,7 @@ footer{
     color: #000000;
     border: 1px solid #ffffff15;
     font-size: 0.9rem;
-    margin: 0px 5px;
+    margin: 0 5px;
     transition: all ease 0.3s;
 }
 .footer-social a:hover{
@@ -487,7 +487,7 @@ footer{
 .footer-links ul li a{
     color: #252222;
     opacity: 0.5;
-    margin: 4px 0px;
+    margin: 4px 0;
     font-size: 0.9rem;
     letter-spacing: 1px;
     transition: all ease 0.3s;
@@ -517,7 +517,7 @@ footer{
         width: 90%;
     }
     #popular-bundle-pack{
-        padding: 50px 30px 0px 30px;
+        padding: 50px 30px 0 30px;
     }
 }
 @media(max-width:1050px){
@@ -547,18 +547,18 @@ footer{
         display: none;
         position: absolute;
         top: 65px;
-        left: 0px;
+        left: 0;
         z-index: 100;
         background-color: #ffffff;
         width: 100%;
-        padding: 0px;
-        margin: 0px;
+        padding: 0;
+        margin: 0;
         border-bottom: 1px solid rgba(245,245,245);
     }
     .navigation .menu li{
         width: 100%;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
     .navigation .menu li a{
         width: 100%;
@@ -566,7 +566,7 @@ footer{
         display: flex;
         align-items: center;
         padding: 30px 20px;
-        margin: 0px;
+        margin: 0;
         border: 1px solid rgba(248,247,247,0.5);
     }
     .menu-icon{
@@ -606,11 +606,11 @@ footer{
     }
     .navigation .menu-btn:checked ~ .menu-icon .nav-icon::before{
         transform: rotate(-45deg);
-        top: 0px;
+        top: 0;
     }
     .navigation .menu-btn:checked ~ .menu-icon .nav-icon::after{
         transform: rotate(45deg);
-        top: 0px;
+        top: 0;
     }
     .navigation .menu-btn:checked ~ .menu-icon .nav-icon{
         background-color: transparent;
@@ -655,7 +655,7 @@ footer{
         flex-direction: column;
         height: 100%;
         background-color: transparent;
-        margin-top: 0px;
+        margin-top: 0;
         width: 90%;
         max-width: 100%;
     }
@@ -707,7 +707,7 @@ footer{
         background-size: 300px;
     }
     .search-banner-text{
-        margin-left: 0px;
+        margin-left: 0;
         max-width: 100%;
     }
     .search-banner-text h1{
@@ -732,13 +732,13 @@ footer{
     }
     .category-box{
         width: 100%;
-        margin: 0px;
+        margin: 0;
     }
     .product-container{
         grid-template-columns: 1fr;
     }
     #popular-bundle-pack{
-        padding: 30px 20px 0px 20px;
+        padding: 30px 20px 0 20px;
     }
     .footer-container{
         grid-template-columns: 1fr;
@@ -760,7 +760,7 @@ footer{
         flex-direction: column;
     }
     .download-btns a{
-        margin: 4px 0px;
+        margin: 4px 0;
         width: 140px;
     }
     .download-btns a img{

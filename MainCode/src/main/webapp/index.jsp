@@ -26,7 +26,7 @@
 <!--==Navigation==-->
 <nav class="navigation">
     <!--logo-->
-    <a href="index.html" class="logo">
+    <a href="index.jsp" class="logo">
         <img src="images/logo.png" alt="YourLogo" class="logo-img">
     </a>
     <!--menu-btn-->
@@ -36,7 +36,7 @@
     </label>
     <!--menu-->
     <ul class="menu">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.jsp" class="active">Home</a></li>
         <li><a href="fruits.html">Fruits</a></li>
         <li><a href="vegetables.html">Vegetables</a></li>
         <li><a href="meat.html">Fish/Meat</a></li>
@@ -46,7 +46,7 @@
     <!--right-nav-(cart-like)-->
     <div class="right-nav">
         <!--User-->
-        <a href="login.html" class="user">
+        <a href="login.jsp" class="user">
             <i class="far fa-user"></i>
 
         </a>
@@ -75,7 +75,9 @@
             <!--icon-->
             <i class="fas fa-search"></i>
             <!--input----->
-            <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+            <label>
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+            </label>
             <!--btn-->
             <input type="submit" class="search-btn" value="Search">
         </form>
@@ -101,7 +103,7 @@
         <!--box-->
         <a href="#" class="category-box">
             <img alt="Fish" src="images/Vegetables.png">
-            <span>Vegatbles</span>
+            <span>Vegetables</span>
         </a>
         <!--box-->
         <a href="#" class="category-box">
@@ -221,7 +223,7 @@
         <!--box-->
         <div class="product-box">
             <img alt="apple" src="images/tamato.png">
-            <strong>Tamato</strong>
+            <strong>Tomato</strong>
             <span class="quantity">1 KG</span>
             <span class="price">1.4$</span>
             <!--cart-btn-->
@@ -249,7 +251,7 @@
         <div class="product-box">
             <img alt="pack" src="images/pack1.png">
             <strong>Big Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato,+4</span>
+            <span class="quantity">Lemon, Tomato, Potato,+4</span>
             <span class="price">9$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -264,7 +266,7 @@
         <div class="product-box">
             <img alt="apple" src="images/pack2.jpg">
             <strong>Large Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato,+2</span>
+            <span class="quantity">Lemon, Tomato, Potato,+2</span>
             <span class="price">5$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -279,7 +281,7 @@
         <div class="product-box">
             <img alt="apple" src="images/pack3.png">
             <strong>Small Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato</span>
+            <span class="quantity">Lemon, Tomato, Potato</span>
             <span class="price">3$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -294,7 +296,7 @@
         <div class="product-box">
             <img alt="pack" src="images/pack1.png">
             <strong>Big Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato,+4</span>
+            <span class="quantity">Lemon, Tomato, Potato,+4</span>
             <span class="price">9$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -309,7 +311,7 @@
         <div class="product-box">
             <img alt="apple" src="images/pack2.jpg">
             <strong>Large Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato,+2</span>
+            <span class="quantity">Lemon, Tomato, Potato,+2</span>
             <span class="price">5$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -324,7 +326,7 @@
         <div class="product-box">
             <img alt="apple" src="images/pack3.png">
             <strong>Small Pack</strong>
-            <span class="quantity">Lemone, Tamato, Patato</span>
+            <span class="quantity">Lemon, Tomato, Potato</span>
             <span class="price">3$</span>
             <!--cart-btn------->
             <a href="#" class="cart1-btn">
@@ -425,7 +427,7 @@
     <div class="footer-container">
         <!--logo-container------>
         <div class="footer-logo">
-            <a href="index.html" class="logo">
+            <a href="index.jsp" class="logo">
                 <img src="images/logo.png" alt="YourLogo" class="logo-img">
             </a>
             <!--social----->
