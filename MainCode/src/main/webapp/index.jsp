@@ -46,7 +46,7 @@
     <!--right-nav-(cart-like)-->
     <div class="right-nav">
         <!--User-->
-        <a href="login.html" class="user">
+        <a href="login.jsp" class="user">
             <i class="far fa-user"></i>
 
         </a>
@@ -60,5 +60,4 @@
 <!--nav-end-->
 
 </body>
-
 </html>
