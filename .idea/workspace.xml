@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Home Page Edits" />
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Index Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -36,35 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.TomCat.executor": "Run",
-    "Smart Tomcat.Tomcat: MainCode.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.TomCat.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Tomcat: MainCode.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
+      <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket" />
     </key>
   </component>
@@ -193,7 +202,13 @@
       <option name="presentableId" value="Default" />
       <updated>1702745896632</updated>
       <workItem from="1702745897738" duration="1216000" />
-      <workItem from="1702747188192" duration="1575000" />
+      <workItem from="1702747188192" duration="2066000" />
+      <workItem from="1702750039387" duration="156000" />
+      <workItem from="1702791994777" duration="480000" />
+      <workItem from="1702798027092" duration="383000" />
+      <workItem from="1702798744048" duration="719000" />
+      <workItem from="1702806850703" duration="26000" />
+      <workItem from="1702824684726" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="Green Supermarket">
       <option name="closed" value="true" />
@@ -251,7 +266,71 @@
       <option name="project" value="LOCAL" />
       <updated>1702748670610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Home Page Edits">
+      <option name="closed" value="true" />
+      <created>1702748918471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702748918471</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Home Page Links">
+      <option name="closed" value="true" />
+      <created>1702750181299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702750181299</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Login update">
+      <option name="closed" value="true" />
+      <created>1702798810600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702798810600</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Css File Update">
+      <option name="closed" value="true" />
+      <created>1702799156204</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702799156204</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Index Search Banner">
+      <option name="closed" value="true" />
+      <created>1702824976301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702824976301</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1702826014561</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826014561</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1702826206562</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826206562</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1702826772823</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826772823</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +341,11 @@
     <MESSAGE value="Main File" />
     <MESSAGE value="Home Page" />
     <MESSAGE value="Home Page Edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page Edits" />
+    <MESSAGE value="Home Page Links" />
+    <MESSAGE value="Login update" />
+    <MESSAGE value="Css File Update" />
+    <MESSAGE value="Index Search Banner" />
+    <MESSAGE value="Index Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index Update" />
   </component>
 </project>
