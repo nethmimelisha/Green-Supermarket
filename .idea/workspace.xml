@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Index Search Banner">
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Index Update">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/Gardening.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/Vegetables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/baby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/beauty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/bg-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/bg-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/chili.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/client-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/client-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/client-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/fresh-vegetables-bio-eco-cotton-260nw-1341908165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/green-tomatoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/medicine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/pack1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/pack2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/pack3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/salmon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/images/tamato.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/css/style.css" afterDir="false" />
@@ -205,7 +232,7 @@
       <workItem from="1702798027092" duration="383000" />
       <workItem from="1702798744048" duration="719000" />
       <workItem from="1702806850703" duration="26000" />
-      <workItem from="1702824684726" duration="1012000" />
+      <workItem from="1702824684726" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="Green Supermarket">
       <option name="closed" value="true" />
@@ -303,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702824976301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1702826014561</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826014561</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +353,7 @@
     <MESSAGE value="Login update" />
     <MESSAGE value="Css File Update" />
     <MESSAGE value="Index Search Banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index Search Banner" />
+    <MESSAGE value="Index Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index Update" />
   </component>
 </project>
