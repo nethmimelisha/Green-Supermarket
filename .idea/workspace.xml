@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Index Update">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="review.jsp">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -68,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pulindu H\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket" />
@@ -207,7 +209,7 @@
       <workItem from="1702824684726" duration="2830000" />
       <workItem from="1702880077466" duration="425000" />
       <workItem from="1702880814366" duration="332000" />
-      <workItem from="1702884490744" duration="310000" />
+      <workItem from="1702884490744" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Green Supermarket">
       <option name="closed" value="true" />
@@ -329,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702826772823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="review.jsp">
+      <option name="closed" value="true" />
+      <created>1702885121196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702885121196</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +355,7 @@
     <MESSAGE value="Css File Update" />
     <MESSAGE value="Index Search Banner" />
     <MESSAGE value="Index Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index Update" />
+    <MESSAGE value="review.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="review.jsp" />
   </component>
 </project>

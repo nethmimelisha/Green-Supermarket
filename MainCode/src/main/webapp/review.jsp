@@ -8,7 +8,7 @@
     <title>Green Supermarket</title>
 
     <!--==Stylesheet==-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="css/review.css"/>
     <script src="js/review.js"></script>
 
