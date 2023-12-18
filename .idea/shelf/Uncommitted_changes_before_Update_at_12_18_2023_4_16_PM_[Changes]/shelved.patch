@@ -1,0 +1,198 @@
+Index: MainCode/src/main/webapp/css/login.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap\");\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody,\r\ninput {\r\n    font-family: \"Poppins\", sans-serif;\r\n}\r\n\r\n.container {\r\n    position: relative;\r\n    width: 100%;\r\n    background-color: #fff;\r\n    min-height: 100vh;\r\n    overflow: hidden;\r\n}\r\n.forms-container {\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 0;\r\n    left: 0;\r\n}\r\n\r\n.signin-signup {\r\n    position: absolute;\r\n    top: 50%;\r\n    transform: translate(-50%, -50%);\r\n    left: 75%;\r\n    width: 50%;\r\n    transition: 1s 0.7s ease-in-out;\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    z-index: 5;\r\n}\r\nform {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    padding: 0rem 5rem;\r\n    transition: all 0.2s 0.7s;\r\n    overflow: hidden;\r\n    grid-column: 1 / 2;\r\n    grid-row: 1 / 2;\r\n}\r\n\r\nform.sign-up-form {\r\n    opacity: 0;\r\n    z-index: 1;\r\n}\r\n\r\nform.sign-in-form {\r\n    z-index: 2;\r\n}\r\n\r\n.title {\r\n    font-size: 2.2rem;\r\n    color: #444;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.input-field {\r\n    max-width: 380px;\r\n    width: 100%;\r\n    background-color: #f0f0f0;\r\n    margin: 10px 0;\r\n    height: 55px;\r\n    border-radius: 55px;\r\n    display: grid;\r\n    grid-template-columns: 15% 85%;\r\n    padding: 0 0.4rem;\r\n    position: relative;\r\n}\r\n\r\n.input-field i {\r\n    text-align: center;\r\n    line-height: 55px;\r\n    color: #acacac;\r\n    transition: 0.5s;\r\n    font-size: 1.1rem;\r\n}\r\n\r\n.input-field input {\r\n    background: none;\r\n    outline: none;\r\n    border: none;\r\n    line-height: 1;\r\n    font-weight: 600;\r\n    font-size: 1.1rem;\r\n    color: #333;\r\n}\r\n\r\n.input-field input::placeholder {\r\n    color: #aaa;\r\n    font-weight: 500;\r\n}\r\n\r\n.social-text {\r\n    padding: 0.7rem 0;\r\n    font-size: 1rem;\r\n}\r\n\r\n.social-media {\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n\r\n.social-icon {\r\n    height: 46px;\r\n    width: 46px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin: 0 0.45rem;\r\n    color: #333;\r\n    border-radius: 50%;\r\n    border: 1px solid #333;\r\n    text-decoration: none;\r\n    font-size: 1.1rem;\r\n    transition: 0.3s;\r\n}\r\n\r\n.social-icon:hover {\r\n    color: #7cb342;\r\n    border-color: #6aa52aaf;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MainCode/src/main/webapp/css/login.css b/MainCode/src/main/webapp/css/login.css
+--- a/MainCode/src/main/webapp/css/login.css	(revision 17327426afd07e12e9eca8487b338d0177534b40)
++++ b/MainCode/src/main/webapp/css/login.css	(date 1702896377385)
+@@ -128,4 +128,14 @@
+ .social-icon:hover {
+     color: #7cb342;
+     border-color: #6aa52aaf;
+-}
+\ No newline at end of file
++}
++.panels-container {
++    position: absolute;
++    height: 100%;
++    width: 100%;
++    top: 0;
++    left: 0;
++    display: grid;
++    grid-template-columns: repeat(2, 1fr);
++}
++
+Index: MainCode/src/main/webapp/login.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <script\r\n            src=\"https://kit.fontawesome.com/64d58efce2.js\"\r\n            crossorigin=\"anonymous\"\r\n    ></script>\r\n    <link rel=\"stylesheet\" href=\"css/login.css\" />\r\n    <title>Sign in & Sign up Form</title>\r\n</head>\r\n<body>\r\n<div class=\"container\">\r\n    <div class=\"forms-container\">\r\n        <div class=\"signin-signup\">\r\n            <form action=\"#\" class=\"sign-in-form\">\r\n                <h2 class=\"title\">Sign in</h2>\r\n                <div class=\"input-field\">\r\n                    <i class=\"fas fa-user\"></i>\r\n                    <input type=\"text\" placeholder=\"Username\" />\r\n                </div>\r\n                <div class=\"input-field\">\r\n                    <i class=\"fas fa-lock\"></i>\r\n                    <input type=\"password\" placeholder=\"Password\" />\r\n                </div>\r\n                <input type=\"submit\" value=\"Login\" class=\"btn solid\" />\r\n                <p class=\"social-text\">Or Sign in with social platforms</p>\r\n                <div class=\"social-media\">\r\n                    <a href=\"#\" class=\"social-icon\">\r\n                        <i class=\"fab fa-facebook-f\"></i>\r\n                    </a>\r\n                    <a href=\"#\" class=\"social-icon\">\r\n                        <i class=\"fab fa-twitter\"></i>\r\n                    </a>\r\n                    <a href=\"#\" class=\"social-icon\">\r\n                        <i class=\"fab fa-google\"></i>\r\n                    </a>\r\n                    <a href=\"#\" class=\"social-icon\">\r\n                        <i class=\"fab fa-linkedin-in\"></i>\r\n                    </a>\r\n                </div>\r\n            </form>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MainCode/src/main/webapp/login.jsp b/MainCode/src/main/webapp/login.jsp
+--- a/MainCode/src/main/webapp/login.jsp	(revision 17327426afd07e12e9eca8487b338d0177534b40)
++++ b/MainCode/src/main/webapp/login.jsp	(date 1702896308400)
+@@ -40,4 +40,18 @@
+                         <i class="fab fa-linkedin-in"></i>
+                     </a>
+                 </div>
+-            </form>
+\ No newline at end of file
++            </form>
++            <form action="#" class="sign-up-form">
++                <h2 class="title">Sign up</h2>
++                <div class="input-field">
++                    <i class="fas fa-user"></i>
++                    <input type="text" placeholder="Username" />
++                </div>
++                <div class="input-field">
++                    <i class="fas fa-envelope"></i>
++                    <input type="email" placeholder="Email" />
++                </div>
++                <div class="input-field">
++                    <i class="fas fa-lock"></i>
++                    <input type="password" placeholder="Password" />
++                </div>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b0910f6c-dd0f-4273-a353-5ca20c104c9b\" name=\"Changes\" comment=\"Index Update\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"Jsp File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"LogFilters\">\r\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\r\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\r\n    <option name=\"FILTER_INFO\" value=\"true\" />\r\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\r\n    <option name=\"CUSTOM_FILTER\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ZdJCgodBxnCy3fu5SSEQKm3QDE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;Smart Tomcat.TomCat.executor&quot;: &quot;Run&quot;,\r\n    &quot;Smart Tomcat.Tomcat: MainCode.executor&quot;: &quot;Run&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;ChangesTree.GroupingKeys&quot;: [\r\n      &quot;directory&quot;,\r\n      &quot;module&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\User\\IdeaProjects\\Green-Supermarket\\MainCode\\src\\main\\webapp\" />\r\n      <recent name=\"C:\\Users\\User\\IdeaProjects\\Green-Supermarket\\MainCode\\src\\main\\webapp\\WEB-INF\" />\r\n      <recent name=\"C:\\Users\\User\\IdeaProjects\\Green-Supermarket\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <deployment />\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"c87b3a04-e5bf-40a1-a797-cfa187b2c475\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"56565\" />\r\n      </RunnerSettings>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Cover\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Debug\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Profile\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Remote\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <option name=\"LOCAL\" value=\"false\" />\r\n      <deployment />\r\n      <server-settings>\r\n        <data>\r\n          <option name=\"targets\">\r\n            <list>\r\n              <WatchedTargetModelImpl>\r\n                <option name=\"name\" value=\"CONTEXT_XML\" />\r\n                <name>CONTEXT_XML</name>\r\n              </WatchedTargetModelImpl>\r\n              <StagingTargetModelImpl>\r\n                <option name=\"name\" value=\"STAGING\" />\r\n                <name>STAGING</name>\r\n              </StagingTargetModelImpl>\r\n            </list>\r\n          </option>\r\n          <option name=\"transportHostId\" />\r\n        </data>\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"TOMCAT_LOCALHOST_LOG_ID\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"56564\" />\r\n        <option name=\"LOCAL\" value=\"false\" />\r\n      </RunnerSettings>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b0910f6c-dd0f-4273-a353-5ca20c104c9b\" name=\"Changes\" comment=\"\" />\r\n      <created>1702745896632</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1702745896632</updated>\r\n      <workItem from=\"1702745897738\" duration=\"1216000\" />\r\n      <workItem from=\"1702747188192\" duration=\"2066000\" />\r\n      <workItem from=\"1702750039387\" duration=\"156000\" />\r\n      <workItem from=\"1702791994777\" duration=\"480000\" />\r\n      <workItem from=\"1702798027092\" duration=\"383000\" />\r\n      <workItem from=\"1702798744048\" duration=\"719000\" />\r\n      <workItem from=\"1702806850703\" duration=\"26000\" />\r\n      <workItem from=\"1702824684726\" duration=\"2830000\" />\r\n      <workItem from=\"1702880077466\" duration=\"425000\" />\r\n      <workItem from=\"1702880814366\" duration=\"332000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Green Supermarket\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702746712278</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702746712278</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Green Supermarket\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702746824689</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702746824689</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Main File\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702747027775</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702747027775</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Main File\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702747041655</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702747041655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Main File\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702747442107</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702747442107</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Home Page\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702747876724</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702747876724</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Home Page Edits\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702748670610</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702748670610</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Home Page Edits\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702748918471</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702748918471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Home Page Links\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702750181299</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702750181299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Login update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702798810600</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702798810600</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Css File Update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702799156204</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702799156204</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Index Search Banner\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702824976301</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702824976301</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Index Update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702826014561</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702826014561</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Index Update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702826206562</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702826206562</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Index Update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702826772823</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702826772823</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"16\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Green Supermarket\" />\r\n    <MESSAGE value=\"Main File\" />\r\n    <MESSAGE value=\"Home Page\" />\r\n    <MESSAGE value=\"Home Page Edits\" />\r\n    <MESSAGE value=\"Home Page Links\" />\r\n    <MESSAGE value=\"Login update\" />\r\n    <MESSAGE value=\"Css File Update\" />\r\n    <MESSAGE value=\"Index Search Banner\" />\r\n    <MESSAGE value=\"Index Update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Index Update\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 17327426afd07e12e9eca8487b338d0177534b40)
++++ b/.idea/workspace.xml	(date 1702896377434)
+@@ -4,8 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Index Update">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_1_09_PM__Changes_.xml" afterDir="false" />
++    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="sign up and sign in">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/css/login.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -40,32 +42,33 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;Smart Tomcat.TomCat.executor&quot;: &quot;Run&quot;,
+-    &quot;Smart Tomcat.Tomcat: MainCode.executor&quot;: &quot;Run&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/&quot;,
+-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "Smart Tomcat.TomCat.executor": "Run",
++    "Smart Tomcat.Tomcat: MainCode.executor": "Run",
++    "git-widget-placeholder": "main",
++    "jdk.selected.JAVA_MODULE": "20",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/",
++    "list.type.of.created.stylesheet": "CSS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;ChangesTree.GroupingKeys&quot;: [
+-      &quot;directory&quot;,
+-      &quot;module&quot;
++  "keyToStringList": {
++    "ChangesTree.GroupingKeys": [
++      "directory",
++      "module"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
+@@ -181,6 +184,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
++      </set>
++    </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -199,7 +209,8 @@
+       <workItem from="1702806850703" duration="26000" />
+       <workItem from="1702824684726" duration="2830000" />
+       <workItem from="1702880077466" duration="425000" />
+-      <workItem from="1702880814366" duration="332000" />
++      <workItem from="1702880814366" duration="799000" />
++      <workItem from="1702890465654" duration="1646000" />
+     </task>
+     <task id="LOCAL-00001" summary="Green Supermarket">
+       <option name="closed" value="true" />
+@@ -321,7 +332,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1702826772823</updated>
+     </task>
+-    <option name="localTasksCounter" value="16" />
++    <task id="LOCAL-00016" summary="delete fruit">
++      <option name="closed" value="true" />
++      <created>1702881309386</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1702881309386</updated>
++    </task>
++    <task id="LOCAL-00017" summary="sign up and sign in">
++      <option name="closed" value="true" />
++      <created>1702881536523</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1702881536523</updated>
++    </task>
++    <option name="localTasksCounter" value="18" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -337,6 +364,8 @@
+     <MESSAGE value="Css File Update" />
+     <MESSAGE value="Index Search Banner" />
+     <MESSAGE value="Index Update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Index Update" />
++    <MESSAGE value="delete fruit" />
++    <MESSAGE value="sign up and sign in" />
++    <option name="LAST_COMMIT_MESSAGE" value="sign up and sign in" />
+   </component>
+ </project>
+\ No newline at end of file
