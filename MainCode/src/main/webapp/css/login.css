@@ -138,7 +138,7 @@ form.sign-in-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-container:before {
+.container:before {
     content: "";
     position: absolute;
     height: 2000px;
