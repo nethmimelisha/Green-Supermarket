@@ -26,3 +26,21 @@ let products = [
         image: 'watermelon.png',
         price: 120000
     },
+    {
+        id: 3,
+        name: 'Avocado',
+        image: 'avocado.png',
+        price: 220000
+    },
+    {
+        id: 4,
+        name: 'Strawberry',
+        image: 'strawberry.png',
+        price: 123000
+    },
+    {
+        id: 5,
+        name: 'Pear',
+        image: 'pear.png',
+        price: 320000
+    },
