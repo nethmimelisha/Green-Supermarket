@@ -64,5 +64,16 @@ v<!DOCTYPE html>
         </a>
     </div>
 </nav>
+<!--nav-end-->
+
+<div class="container1">
+    <header>
+        <h1>Fruits</h1>
+
+    </header>
+
+    <div class="list">
+
+
 
 
