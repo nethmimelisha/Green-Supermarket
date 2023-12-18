@@ -12,3 +12,11 @@ openShopping.addEventListener('click', ()=>{
 closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
+
+let products = [
+    {
+        id: 1,
+        name: 'Pineapple',
+        image: 'pineapple.png',
+        price: 120000
+    },
