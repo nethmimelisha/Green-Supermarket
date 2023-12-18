@@ -94,3 +94,28 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
+        <!--links------------------------->
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Fish/Meat</a></li>
+
+            </ul>
+        </div>
+
+        <!--links-------------------------->
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone : +123456789</a></li>
+                <li><a href="#">Email : Example@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/meat.js"></script>
+</body>
+</html>
