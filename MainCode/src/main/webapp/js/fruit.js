@@ -44,3 +44,10 @@ let products = [
         image: 'pear.png',
         price: 320000
     },
+    {
+        id: 6,
+        name: 'Orange',
+        image: 'orange.png',
+        price: 120000
+    }
+];
