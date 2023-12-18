@@ -1,0 +1,18 @@
+Index: .idea/runConfigurations/Tomcat__MainCode.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ProjectRunConfigurationManager\">\r\n  <configuration default=\"false\" name=\"Tomcat: MainCode\" type=\"com.poratu.idea.plugins.tomcat\" singleton=\"false\">\r\n    <log_file alias=\"Tomcat Catalina Log\" path=\"logs/catalina.*\" />\r\n    <log_file alias=\"Tomcat Manager Log\" path=\"logs/manager.*\" />\r\n    <log_file alias=\"Tomcat Host Manager Log\" path=\"logs/host-manager.*\" />\r\n    <predefined_log_file enabled=\"true\" id=\"Tomcat Localhost Log\" />\r\n    <predefined_log_file enabled=\"true\" id=\"Tomcat Access Log\" />\r\n    <option name=\"catalinaBase\" value=\"\" />\r\n    <option name=\"contextPath\" value=\"/MainCode\" />\r\n    <option name=\"docBase\" value=\"$PROJECT_DIR$/MainCode/src/main/webapp\" />\r\n    <option name=\"envOptions\">\r\n      <map />\r\n    </option>\r\n    <option name=\"extraClassPath\" value=\"\" />\r\n    <option name=\"tomcatInfo\">\r\n      <TomcatInfo>\r\n        <option name=\"name\" value=\"Apache Tomcat/10.1.17\" />\r\n        <option name=\"path\" value=\"$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 10.1\" />\r\n        <option name=\"version\" value=\"10.1.17.0\" />\r\n      </TomcatInfo>\r\n    </option>\r\n    <option name=\"vmOptions\" value=\"\" />\r\n    <module name=\"MainCode\" />\r\n    <method v=\"2\">\r\n      <option name=\"Make\" enabled=\"true\" />\r\n    </method>\r\n  </configuration>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Tomcat__MainCode.xml b/.idea/runConfigurations/Tomcat__MainCode.xml
+--- a/.idea/runConfigurations/Tomcat__MainCode.xml	
++++ b/.idea/runConfigurations/Tomcat__MainCode.xml	
+@@ -20,7 +20,6 @@
+       </TomcatInfo>
+     </option>
+     <option name="vmOptions" value="" />
+-    <module name="MainCode" />
+     <method v="2">
+       <option name="Make" enabled="true" />
+     </method>
