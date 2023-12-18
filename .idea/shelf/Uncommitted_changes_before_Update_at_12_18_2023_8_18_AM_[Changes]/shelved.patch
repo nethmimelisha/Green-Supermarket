@@ -1,0 +1,22 @@
+Index: MainCode/src/main/webapp/js/fruit.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>let openShopping = document.querySelector('.shopping');\r\nlet closeShopping = document.querySelector('.closeShopping');\r\nlet list = document.querySelector('.list');\r\nlet listCard = document.querySelector('.listCard');\r\nlet body = document.querySelector('body');\r\nlet total = document.querySelector('.total');\r\nlet quantity = document.querySelector('.quantity');\r\n\r\nopenShopping.addEventListener('click', ()=>{\r\n    body.classList.add('active');\r\n})\r\ncloseShopping.addEventListener('click', ()=>{\r\n    body.classList.remove('active');\r\n})\r\n\r\nlet products = [\r\n    {\r\n        id: 1,\r\n        name: 'Pineapple',\r\n        image: 'pineapple.png',\r\n        price: 120000\r\n    },
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MainCode/src/main/webapp/js/fruit.js b/MainCode/src/main/webapp/js/fruit.js
+--- a/MainCode/src/main/webapp/js/fruit.js	(revision 9a07e4bc5aafacc13228dccfa6343330a11933e4)
++++ b/MainCode/src/main/webapp/js/fruit.js	(date 1702916281247)
+@@ -19,4 +19,10 @@
+         name: 'Pineapple',
+         image: 'pineapple.png',
+         price: 120000
++    },
++    {
++        id: 2,
++        name: 'Watermelon',
++        image: 'watermelon.png',
++        price: 120000
+     },
+\ No newline at end of file
