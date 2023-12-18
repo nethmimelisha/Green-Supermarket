@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 
     <!--==Using-Font-Awesome==-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -57,3 +57,66 @@
     </div>
 </nav>
 <!--nav-end-->
+
+
+<div class="container1">
+    <header>
+        <h1>Fish/Meat</h1>
+    </header>
+
+    <div class="list">
+
+    </div>
+</div>
+<div class="card">
+    <h1>Shopping Cart</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+<br><br>  <br><br>
+<!--==Footer=============================================-->
+<footer>
+    <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="YourLogo" class="logo-img">
+            </a>
+            <!--social----->
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Fish/Meat</a></li>
+
+            </ul>
+        </div>
+
+        <!--links-------------------------->
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone : +123456789</a></li>
+                <li><a href="#">Email : Example@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/meat.js"></script>
+</body>
+</html>
