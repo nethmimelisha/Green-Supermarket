@@ -73,6 +73,17 @@ v<!DOCTYPE html>
     </header>
 
     <div class="list">
+    </div>
+</div>
+<div class="card">
+    <h1>Shopping Cart</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
 
 
 
