@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+<<<<<<<<< Temporary merge branch 1
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Update Login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" afterDir="false" />
+=========
+    <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="update fruit.js,">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2023_5_20_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2023_5_20_AM__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2023_9_26_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2023_9_26_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/vegetables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/vegetables.jsp" afterDir="false" />
+>>>>>>>>> Temporary merge branch 2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,33 +50,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<<<< Temporary merge branch 1
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Smart Tomcat.TomCat.executor&quot;: &quot;Run&quot;,
     &quot;Smart Tomcat.Tomcat: MainCode.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=========
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.TomCat.executor": "Run",
+    "Smart Tomcat.Tomcat: MainCode.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>>>> Temporary merge branch 2
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Green-Supermarket\MainCode\src\main\webapp" />
@@ -212,6 +246,8 @@
       <workItem from="1702904627170" duration="294000" />
       <workItem from="1702904931012" duration="110000" />
       <workItem from="1702916096449" duration="385000" />
+      <workItem from="1702925467045" duration="980000" />
+      <workItem from="1702965890623" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="Green Supermarket">
       <option name="closed" value="true" />
@@ -373,30 +409,95 @@
       <option name="project" value="LOCAL" />
       <updated>1702916450887</updated>
     </task>
-    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+<<<<<<<<< Temporary merge branch 1
+    <task id="LOCAL-00021" summary="images">
       <option name="closed" value="true" />
-      <created>1702970223026</created>
+      <created>1702922658712</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1702970223026</updated>
+      <updated>1702922658712</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="images">
+      <option name="closed" value="true" />
+      <created>1702922691343</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702922691343</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1702922789500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702922789500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Link Meat.js">
+      <option name="closed" value="true" />
+      <created>1702923029312</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702923029312</updated>
+    </task>
+    <task id="LOCAL-00025" summary="style.css updates">
+      <option name="closed" value="true" />
+      <created>1702923110702</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702923110702</updated>
+    </task>
+    <task id="LOCAL-00026" summary="product.css updates">
+      <option name="closed" value="true" />
+      <created>1702923153310</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702923153310</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update fruit.jsp">
+      <option name="closed" value="true" />
+      <created>1702923365896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702923365896</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update Login">
+      <option name="closed" value="true" />
+      <created>1702923483717</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702923483717</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+=========
+    <task id="LOCAL-00021" summary="update fruit.js,">
+      <option name="closed" value="true" />
+      <created>1702921958562</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702921958562</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update fruit.js,">
+      <option name="closed" value="true" />
+      <created>1702922038497</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702922038497</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+>>>>>>>>> Temporary merge branch 2
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Green Supermarket" />
@@ -407,10 +508,20 @@
     <MESSAGE value="Login update" />
     <MESSAGE value="Css File Update" />
     <MESSAGE value="Index Search Banner" />
-    <MESSAGE value="Index Update" />
     <MESSAGE value="new meat" />
-    <MESSAGE value="update vegetables.jsp" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+<<<<<<<<< Temporary merge branch 1
+    <MESSAGE value="images" />
+    <MESSAGE value="Index Update" />
+    <MESSAGE value="Link Meat.js" />
+    <MESSAGE value="style.css updates" />
+    <MESSAGE value="product.css updates" />
+    <MESSAGE value="Update fruit.jsp" />
+    <MESSAGE value="Update Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Login" />
+=========
+    <MESSAGE value="update fruit.js,add pictures" />
+    <MESSAGE value="update fruit.js," />
+    <option name="LAST_COMMIT_MESSAGE" value="update fruit.js," />
+>>>>>>>>> Temporary merge branch 2
   </component>
 </project>
