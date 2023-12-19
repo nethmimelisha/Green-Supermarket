@@ -57,5 +57,25 @@
     </div>
 </nav>
 <!--nav-end-->
-</body>
-</html>
+
+<div class="container1">
+    <header>
+        <h1>Vegetables</h1>
+
+    </header>
+
+    <div class="list">
+
+    </div>
+</div>
+<div class="card">
+    <h1>Shopping Cart</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+<br><br>  <br><br>
