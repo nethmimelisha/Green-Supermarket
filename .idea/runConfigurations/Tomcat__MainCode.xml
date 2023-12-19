@@ -5,7 +5,7 @@
     <log_file alias="Tomcat Host Manager Log" path="logs/host-manager.*" />
     <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
     <predefined_log_file enabled="true" id="Tomcat Access Log" />
-    <option name="catalinaBase" value="" />
+    <option name="catalinaBase" value="C:\Users\Pulindu H\.SmartTomcat\Green-Supermarket1\MainCode" />
     <option name="contextPath" value="/MainCode" />
     <option name="docBase" value="$PROJECT_DIR$/MainCode/src/main/webapp" />
     <option name="envOptions">
@@ -20,6 +20,7 @@
       </TomcatInfo>
     </option>
     <option name="vmOptions" value="" />
+    <module name="MainCode" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
