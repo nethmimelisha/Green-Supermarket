@@ -25,7 +25,7 @@
 <!--==Navigation==-->
 <nav class="navigation">
     <!--logo-->
-    <a href="index.html" class="logo">
+    <a href="index.jsp" class="logo">
         <img src="images/logo.png" alt="YourLogo" class="logo-img">
     </a>
     <!--menu-btn-->
