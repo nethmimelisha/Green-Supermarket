@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0910f6c-dd0f-4273-a353-5ca20c104c9b" name="Changes" comment="Database Update">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCode/src/main/java/com/green/supermarket/action/RegServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/java/com/green/supermarket/action/RegServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCode/src/main/java/com/green/supermarket/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/java/com/green/supermarket/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCode/target/classes/com/green/supermarket/action/RegServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/MainCode/target/classes/com/green/supermarket/action/RegServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Smart Tomcat.TomCat.executor": "Run",
     "Smart Tomcat.Tomcat: MainCode.executor": "Run",
     "git-widget-placeholder": "main",
@@ -71,6 +76,9 @@
     "ChangesTree.GroupingKeys": [
       "directory",
       "module"
+    ],
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
 }]]></component>
@@ -471,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702978082847</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Database Update">
+      <option name="closed" value="true" />
+      <created>1702981554678</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702981554678</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
