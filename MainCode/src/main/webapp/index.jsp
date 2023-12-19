@@ -37,7 +37,7 @@
     <!--menu-->
     <ul class="menu">
         <li><a href="index.jsp" class="active">Home</a></li>
-        <li><a href="fruits.jsp">Fruits</a></li>
+        <li><a href="fruit.jsp">Fruits</a></li>
         <li><a href="vegetables.jsp">Vegetables</a></li>
         <li><a href="meat.jsp">Fish/Meat</a></li>
         <li><a href="review.jsp">Reviews</a></li>
@@ -443,7 +443,7 @@
             <strong>Product</strong>
             <ul>
                 <li><a href="fruit.jsp">Fruits</a></li>
-                <li><a href="vegetable.jsp">Vegetables</a></li>
+                <li><a href="vegetables.jsp">Vegetables</a></li>
                 <li><a href="meat.jsp">Fish/Meat</a></li>
 
             </ul>

@@ -389,7 +389,7 @@ body{
     padding: 30px 20px;
     border: 1px solid #f1f1f1;
     box-shadow: 2px 2px 50px rgba(0,0,0,0.05);
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0 30px 0 30px;
 }
 .client-profile{
     display: flex;
@@ -419,7 +419,7 @@ body{
 }
 .rating{
     display: flex;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 .rating i{
     color: #fdcc0d;

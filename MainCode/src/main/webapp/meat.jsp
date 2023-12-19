@@ -23,7 +23,7 @@
 <!--==Navigation==-->
 <nav class="navigation">
     <!--logo-->
-    <a href="index.html" class="logo">
+    <a href="index.jsp" class="logo">
         <img src="images/logo.png" alt="YourLogo" class="logo-img">
     </a>
     <!--menu-btn-->
@@ -33,17 +33,17 @@
     </label>
     <!--menu-->
     <ul class="menu">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="fruits.html">Fruits</a></li>
-        <li><a href="vegetables.html">Vegetables</a></li>
-        <li><a href="meat.html">Fish/Meat</a></li>
-        <li><a href="review.html">Reviews</a></li>
+        <li><a href="index.jsp" class="active">Home</a></li>
+        <li><a href="fruit.jsp">Fruits</a></li>
+        <li><a href="vegetables.jsp">Vegetables</a></li>
+        <li><a href="meat.jsp">Fish/Meat</a></li>
+        <li><a href="review.jsp">Reviews</a></li>
 
     </ul>
     <!--right-nav-(cart-like)-->
     <div class="right-nav">
         <!--User-->
-        <a href="login.html" class="user">
+        <a href="login.jsp" class="user">
             <i class="far fa-user"></i>
 
         </a>
@@ -84,7 +84,7 @@
     <div class="footer-container">
         <!--logo-container------>
         <div class="footer-logo">
-            <a href="index.html" class="logo">
+            <a href="index.jsp" class="logo">
                 <img src="images/logo.png" alt="YourLogo" class="logo-img">
             </a>
             <!--social----->
