@@ -34,5 +34,30 @@
         <span class="nav-icon"></span>
     </label>
 
+    <!--menu-->
+    <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="fruits.html">Fruits</a></li>
+        <li><a href="vegetables.html">Vegetables</a></li>
+        <li><a href="meat.html">Fish/Meat</a></li>
+        <li><a href="review.html">Reviews</a></li>
+
+    </ul>
+    <!--right-nav-(cart-like)-->
+    <div class="right-nav">
+        <!--User-->
+        <a href="login.html" class="user">
+            <i class="far fa-user"></i>
+
+        </a>
+        <!--cart----->
+        <a href="cart.html" class="cart1">
+            <i class="fas fa-shopping-cart"></i>
+            <span>0</span>
+        </a>
+    </div>
+</nav>
+<!--nav-end--------------------->
+
 </body>
 </html>
